@@ -1,0 +1,52 @@
+Hi, I'm ***m.a.d.d.i.e***, the Masks Automated Discord Dice Interpreter & Explainer!
+
+Syntax is as follows - `move+/-label`
+`!engage+3`
+`!support-2`
+If you're using a playbook or custom move not covered here you can use `!other+1`
+
+***Basic moves***
+e.g.
+`!engage` - DIRECTLY ENGAGE A THREAT
+`!unleash` - UNLEASH YOUR POWERS
+For more type `!moves`
+
+***Playbook moves***
+To see moves type the name of the playbook e.g. `!beacon`
+e.g.
+`!creepin` - STRAIGHT UP CREEPIN
+
+***Team Pool***
+`!team` - Add a team to the pool
+`!spend` - Spend a team from the pool
+`!pool` - See what's in the team pool
+`!empty` - Reset the team pool to 1
+
+***Team moves***
+For these 3 if you don't provide a playbook it will use whatever character you have setup. -
+
+`!mot beacon` will display your playbook's 'Moment of Truth' text.
+`!celebrate beacon` will display your 'share a moment of triumph with someone' move.
+`!weakness beacon` will display your 'share a vulnerability or weakness with someone' move.
+
+***Peripheral Moves***
+`!eos` - END OF SESSION
+`!battle` - ENTER BATTLE AGAINST A DANGEROUS FOE AS A TEAM
+
+***Adult moves***
+e.g.
+`!wield` - WIELD YOUR POWERS
+For more type `!adult`
+
+***Character Sheet/Server Management***
+`!createsettings en\es` - Make an English or Spanish settings file for this specific room, do this first.
+
+`!create nova "Jean Grey" "Harkano (Ross)" savior` - Creates a Nova called Jean Grey, played by Harkano (Ross), with the initial label increase put into savior.  You don't need quotes if you don't have a space.
+`!editlabels superior mundane` - shifts superior up and mundane down
+`!labels` - shows your current labels
+`!potential` - makes potential, tells you how many you have, and lets you know when you get an advancement
+`!conditions` - shows your current conditions
+`!markcondition guilty` - marks guilty
+`!clearcondition guilty` - clears guilty
+
+For any feedback, feature requests or bug reports please contact 'Harkano (Ross) #7019' on https://discord.gg/2a4hbpD

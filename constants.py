@@ -1,0 +1,69 @@
+PLAYBOOK_INTERACTIONS = 'playbook_interactions'
+MOVES = 'moves'
+PENDING_ADVANCEMENTS = 'pendingAdvancements'
+PICKED = 'picked'
+SHORT_NAME = 'shortName'
+SPECIAL = 'special'
+ID = 'id'
+PLAYBOOK = 'playbook'
+LABELS = 'labels'
+VALUE = 'value'
+LOCKED = 'locked'
+POTENTIAL = 'potential'
+CONDITIONS = 'conditions'
+ADVANCEMENT = 'advancement'
+MAX_LABEL_VALUE = 3
+MIN_LABEL_VALUE = -2
+PLAYBOOK_INTERACTIONS = 'playbook_interactions'
+CONFIGURATION = 'configuration'
+DESCRIPTION = 'description'
+TAKEN = 'taken'
+MAX_POSITIVE_MOD = 4
+MIN_NEGATIVE_MOD = -3
+SUM = '+'
+SUB = '-'
+HEART = 'heart'
+BULL = 'bull'
+ROLES = 'roles'
+ADULT = 'adult'
+DELINQUENT = 'delinquent'
+DOOMED = 'doomed'
+DOOMSIGNS = 'doomsigns'
+NOVA = 'nova'
+FLARES = 'flares'
+JANUS = 'janus'
+MASK_LABEL = 'maskLabel'
+BEACON = 'beacon'
+DRIVES = 'drives'
+DRIVES_DESCRIPTION = 'drivesDescription'
+LEGACY = 'legacy'
+SANCTUARY = 'sanctuary'
+OUTSIDER = 'outsider'
+SECRET_IDENTITY = 'secretIdentity'
+PROTEGE = 'protege'
+RESOURCES = 'resources'
+MENTOR = 'mentor'
+MAX_RESOURCES_TO_ADD = 4
+SOLDIER = 'soldier'
+INNOCENT = 'innocent'
+NEWBORN = 'newborn'
+REFORMED = 'reformed'
+SCION = 'scion'
+STAR = 'star'
+dice = [
+    (1, 'maddie1', 784076924216934430),
+    (2, 'maddie2', 784076967049166848),
+    (3, 'maddie3', 784076999739834399),
+    (4, 'maddie4', 784077034216882196),
+    (5, 'maddie5', 784077062301941771),
+    (6, 'maddie6', 784077092681285713)
+]
+modifier_emojis = [
+    (1, 'plusone', 812771463370244096),
+    (2, 'plustwo', 812772214629728256),
+    (3, 'plusthree', 812772214440984578),
+    (4, 'plusfour', 812772214574809118),
+    (-1, 'minusone', 812772214092333079),
+    (-2, 'minustwo', 812772214465495040),
+    (-3, 'minusthree', 812772214309912587),
+]

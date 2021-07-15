@@ -1,0 +1,108 @@
+{
+  "characterName": "",
+  "playerName": "",
+  "playbook": "bold",
+  "labels": {
+    "creativity": {
+      "value": 1,
+      "locked": false
+    },
+    "focus": {
+      "value": 1,
+      "locked": false
+    },
+    "harmony": {
+      "value": 0,
+      "locked": false
+    },
+    "passion": {
+      "value": -1,
+      "locked": false
+    }
+  },
+  "potential": 0,
+  "pendingAdvancements": 0,
+  "conditions": {
+    "afraid": false,
+    "angry": false,
+    "foolish": false,
+    "guilty": false,
+    "insecure": false
+  },
+  "balance": {
+    "right": "action",
+    "left": "forgiveness",
+    "center": 0,
+    "value": 0
+  },
+  "moves": [
+    { "id": 16, "picked": false },
+    { "id": 17, "picked": false },
+    { "id": 18, "picked": false },
+    { "id": 19, "picked": false },
+    { "id": 20, "picked": false },
+    { "id": 21, "picked": false }
+  ],
+  "advancement": {
+    "basic": {
+      "otherPlaybookMove1": {
+        "description": "moveYouPlaybook",
+        "taken": false
+      },
+      "otherPlaybookMove2": {
+        "description": "moveYouPlaybook",
+        "taken": false
+      },
+      "yourPlaybookMove1": {
+        "description": "moveOtherPlaybook",
+        "taken": false
+      },
+      "yourPlaybookMove2": {
+        "description": "moveOtherPlaybook",
+        "taken": false
+      },
+      "plusOne": {
+        "description": "plusOne",
+        "taken": false
+      },
+      "shiftCenter": {
+        "description": "shiftCenter",
+        "taken": false
+      },
+      "shiftCenterAgain": {
+        "description": "shiftCenterAgain",
+        "taken": false
+      },
+      "mot": {
+        "description": "mot",
+        "taken": false
+      },
+      "motAgain": {
+        "description": "motAgain",
+        "taken": false
+      }
+    }
+  },
+  "drivesDescription": "drivesDescription",
+  "drives": {
+    "lead": false,
+    "kissDanger": false,
+    "hitYouShouldnt": false,
+    "helpTeammate": false,
+    "endThreat": false,
+    "outperform": false,
+    "ridiculous": false,
+    "saveTeammateLife": false,
+    "drunkOrDrug": false,
+    "drive": false,
+    "newSuit": false,
+    "gainRespect": false,
+    "kissTeammate": false,
+    "punchTeammate": false,
+    "breakRelation": false,
+    "stopFight": false,
+    "trueFeelings": false,
+    "placeOrTime": false,
+    "reject": false
+  }
+}
