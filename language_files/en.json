@@ -242,5 +242,33 @@
 		"source": "core",
 		"name": "Avatar Legends: The Roleplaying Game"
 	}
-	]
+	],
+	"techniques": [{
+		"id": 0,
+		"playbook": "all",
+		"shortName": "retaliate",
+		"type": "defend",
+		"blob": "Each time a foe inflicts fatigue, a condition, or shifts your balance in this exchange, inflict 1-fatigue on that foe",
+		"label":  "focus"
+	},	{
+		"id": 1,
+		"playbook": "all",
+		"shortName": "block",
+		"type": "defend",
+		"blob": "Choose one **advance & attack** technique. For the rest of this exchange, mark 1-fatigue to block an enemy within reach who uses that technique unless they mark an additional fatigue",
+		"label": "focus"
+		},
+		{
+		"id": 2,
+		"playbook": "all",
+		"shortName": "retreat",
+		"type": "defend",
+		"blob": "Leave the fight to safety. Any foe engaged with you can mark 1-fatigue to block this technique.",
+		"label": "focus"
+		},{
+
+
+
+
+	}]
 }
