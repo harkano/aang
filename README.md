@@ -16,4 +16,4 @@ More to come including character, labels, conditions, balance and growth managem
 
 Go wild and let us know in [discord](https://discord.gg/uCFZNBxVCC) if you have any issues, or submit issues here in the git
 
-Add AANG to your server [here](https://discord.com/api/oauth2/authorize?client_id=864245163035066368&permissions=0&scope=bot%20applications.commands)
+## Add AANG to your server [here](https://discord.com/api/oauth2/authorize?client_id=864245163035066368&permissions=0&scope=bot%20applications.commands)
