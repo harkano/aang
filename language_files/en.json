@@ -185,6 +185,39 @@
 		"img": "https://media.discordapp.net/attachments/864247685712576553/864274140701786164/logo1.png",
 		"requiresRolling": true,
 		"playbook": "bold"
+	},{
+		"id": 17,
+		"shortName": "defend",
+		"capital": "DEFEND & RESPOND",
+		"phrase": "defends & responds!",
+		"blob": "On a 7-9, use one basic or mastered technique. \nOn a 10+, choose one from this list instead:\n• mark 1-fatigue to use a learned technique\n• use one practiced technique\n• use two basic or mastered techniques\nOn a miss, you stumble, but you can shift your balance away from center to use one basic technique.",
+		"label": "focus",
+		"description": " ",
+		"img": "https://media.discordapp.net/attachments/864247685712576553/864274140701786164/logo1.png",
+		"requiresRolling": true,
+		"playbook": "fight"
+	},{
+		"id": 18,
+		"shortName": "evade",
+		"capital": "EVADE & OBSERVE",
+		"phrase": "evades & observes!",
+		"blob": "On a 7-9, use one basic or mastered technique. \nOn a 10+, choose one from this list instead:\n• mark 1-fatigue to use a learned technique\n• use one practiced technique\n• use two basic or mastered techniques\nOn a miss, you stumble, but you can shift your balance away from center to use one basic technique.",
+		"label": "passion",
+		"description": " ",
+		"img": "https://media.discordapp.net/attachments/864247685712576553/864274140701786164/logo1.png",
+		"requiresRolling": true,
+		"playbook": "fight"
+	},{
+		"id": 19,
+		"shortName": "advance",
+		"capital": "ADVANCE & ATTACK",
+		"phrase": "advances & attacks!",
+		"blob": "On a 7-9, use one basic or mastered technique. \nOn a 10+, choose one from this list instead:\n• mark 1-fatigue to use a learned technique\n• use one practiced technique\n• use two basic or mastered techniques\nOn a miss, you stumble, but you can shift your balance away from center to use one basic technique.",
+		"label": "passion",
+		"description": " ",
+		"img": "https://media.discordapp.net/attachments/864247685712576553/864274140701786164/logo1.png",
+		"requiresRolling": true,
+		"playbook": "fight"
 	}
 	],
 	"playbooks": [{
