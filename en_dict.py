@@ -67,7 +67,7 @@ en = {
   },
   "dice_rolling": {
     "calculation_title": "Calculation",
-    "calculation": lambda result1, result2, mod, calc: f"Dice **{result1}** + **{result2}**, Modifier {mod} **{calc}**",
+    "calculation": lambda result1, result2, mod, calc: f"Dice **{result1}** + **{result2}**, Modifier **{calc}**",
     "dice": "Dice",
     "label": lambda label_name, label_value: f"**{label_name}** is **{label_value}**\n",
     "result": "Result",
