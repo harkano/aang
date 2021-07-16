@@ -10,14 +10,17 @@ from playbook_interactions import get_character_ctx
 from constants import LABELS, CONDITIONS, VALUE, dice, modifier_emojis
 
 def parse (ctx, move, modifier=0):
-    print (ctx)
+ #   print (ctx)
     move_data = get_move(move)
-    print (move_data)
-    character = get_character_ctx(ctx)
+ #   print (move_data)
+ #   character = get_character_ctx(ctx)
+    character = None
+ #DISABLED FOR NOW UNTIL WE NEED CHARACTERS ###REENABLE ME
     embed=discord.Embed(title=f"{move_data['capital']}", colour=5450873)
     embed.set_footer(text=" ")
     embed.set_author(name=f"{ctx.author.name} {move_data['phrase']}")
-    embed.set_thumbnail(url=move_data['img'])
+    #embed.set_thumbnail(url=move_data['img']) this is the default aang logo
+    embed.set_thumbnail(url=ctx.author.avatar_url) #use their logo instead!
     lang ='en'
     desc = get_translation(lang, 'description')
     embed.add_field(name=desc, value=f"{move_data['blob']}")
@@ -69,8 +72,8 @@ def add_result (embed, num_calc, modifier, lang, character_label, character_cond
     calculation_title = get_translation(lang, 'dice_rolling.calculation_title')
 
     calculation = get_translation(lang, 'dice_rolling.calculation')(result1, result2, modifier_to_show, num_calc)
-    if character_condition: calculation = character_condition + calculation
-    if character_label: calculation = character_label + calculation
+    #if character_condition: calculation = character_condition + calculation
+    #if character_label: calculation = character_label + calculation
     result = get_translation(lang, 'dice_rolling.result')
     if command_mod: calculation = get_translation(lang, 'dice_rolling.command_modifier')(command_mod) + calculation
     embed.add_field(name=calculation_title, value=calculation, inline=False)
