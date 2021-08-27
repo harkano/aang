@@ -20,7 +20,7 @@
 		"capital": "LIVE UP TO YOUR PRINCIPLE",
 		"phrase": "lives up to their principle!",
 		"blob": "When you ***take action in accordance with the values of a principle***, mark 1-fatigue to roll with that principle instead of whatever stat you would normally roll. \n\nIf you would normally roll with one or the other principle to make a move, you can’t apply this move to it—you’re already living up to that principle!",
-		"label": "freak",
+		"label": "principle",
 		"description": " ",
 		"img": "https://media.discordapp.net/attachments/864247685712576553/864274140701786164/logo1.png",
 		"requiresRolling": false,

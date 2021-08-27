@@ -1,4 +1,6 @@
 import os
+import logging
+
 import requests
 import discord
 from discord.ext import commands
@@ -11,6 +13,14 @@ from discord_slash.model import ButtonStyle
 from dotenv import load_dotenv
 
 from slash_parse import parse
+
+logger = logging.getLogger('discord')
+logger.setLevel(logging.INFO) #set logging level to INFO, DEBUG if we want the full dump
+handler = logging.FileHandler(filename='aang.log', encoding='utf-8', mode='a') #open log file in append mode
+handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(message)s'))
+logger.addHandler(handler)
+
+logger.setLevel(logging.INFO) #set logging level to INFO, DEBUG if we want the full dump
 
 client = commands.Bot(command_prefix="!")
 slash = SlashCommand(client, sync_commands=True)
@@ -114,5 +124,5 @@ async def balance(ctx, move:str, modifier:int=0):
 
 
 
-
+#client.setActivity("Currently in ${client.guilds.cache.size} servers");
 client.run(TOKEN)

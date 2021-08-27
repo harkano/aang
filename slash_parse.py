@@ -29,11 +29,11 @@ def parse (ctx, move, modifier=0):
         addendum = handle_roll(character, embed, modifier, lang, ctx, move_data)
 #       embed.set_footer(text=" ")
 #       embed.set_author(name=f"{user} {phrase}")
-        dicedisplay=True
+        dicedisplay = True
 
         if dicedisplay:
-            return (embed, addendum)
-        return (embed, '')
+            return embed, addendum
+    return embed, ''
 
 def handle_roll(character, embed, modifier, lang, ctx, move_data):
     #character = get_character(message) #get it higher up instead
