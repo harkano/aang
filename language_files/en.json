@@ -144,9 +144,9 @@
 	}, {
 		"id": 13,
 		"shortName": "comfort",
-		"capital": "COMFORT OR SUPPORT",
+		"capital": "GUIDE AND COMFORT",
 		"phrase": "comforts or supports!",
-		"blob": "When you comfort or support another person, roll with Harmony. \nOn a hit, they must decide if they open up to you. \nIf they don’t, mark a condition and take +1 forward against them; if they do, ask them any question. \nOn a 10+, they can ask a question of you as \nwell. Anyone who answers a question honestly may choose to clear a condition or 2-fatigue.",
+		"blob": "When you try to honestly guide and comfort another person, roll with Harmony. On a hit, they choose one:\n• They embrace your guidance and comfort. They may clear a condition or 2-fatigue, and you may ask one question; they must answer honestly.\n• They shut you down. They inflict a condition on you, and you shift their balance in response.\nOn a 10+, if they embrace your guidance and comfort, you may also shift their balance.",
 		"label": "harmony",
 		"description": " ",
 		"img": "https://media.discordapp.net/attachments/864247685712576553/864274140701786164/logo1.png",
