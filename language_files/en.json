@@ -98,7 +98,7 @@
 	}, {
 		"id": 9,
 		"shortName": "other",
-		"capital": "ANY OTHER PLAYBOOK MOVE",
+		"capital": "ANY OTHER PLAYBOOK/CUSTOM MOVE",
 		"phrase": "uses a move!",
 		"blob": "Stuff!",
 		"label": "flat",
